@@ -1,7 +1,9 @@
 🍷 Wine Quality Prediction
+
 Wine quality prediction refers to using machine learning algorithms and statistical techniques to analyze and predict the quality of wine based on various input features. The goal of this project is to develop a model that can accurately determine the quality of wine using its chemical properties.
 
 📌 Project Overview
+
 This project follows a complete machine learning workflow—from data preprocessing to model deployment using a Flask web application.
 
 1️⃣ Data Preprocessing
@@ -23,7 +25,6 @@ This project follows a complete machine learning workflow—from data preprocess
 3. Users can input wine chemical properties to get predicted quality
 
 🚀 Tech Stack
-
 1. Python
 2. Scikit-learn
 3. Pandas / NumPy
