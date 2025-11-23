@@ -1,12 +1,47 @@
-# Wine-Quality-Prediction
-Wine quality prediction refers to the process of using machine learning algorithms and statistical techniques to analyze and predict the quality of wine based on various input factors. The goal is to build models that can accurately determine the quality of a wine based on its chemical properties and other characteristics.
+🍷 Wine Quality Prediction
 
-In this project:
+Wine quality prediction refers to using machine learning algorithms and statistical techniques to analyze and predict the quality of wine based on various input features. The goal of this project is to develop a model that can accurately determine the quality of wine using its chemical properties.
 
-1] First, the dataset is preprocessed, which includes tasks such as handling missing values, normalizing or standardizing features, and splitting the data into training and testing sets.
+📌 Project Overview
 
-2] Then the with the use of random forest classifier the dataset is divided into train and test data.
+This project follows a complete machine learning workflow—from data preprocessing to model deployment using a Flask web application.
 
-3] by using the pickle package a model.pkl file is created for the predicition.
+1️⃣ Data Preprocessing
 
-4] A app is created using Flask framework and the model.pkl file is uploaded in it for futher predicition.
+Handled missing values
+
+Normalized/standardized the features
+
+Split the dataset into training and testing sets
+
+2️⃣ Model Building
+
+Implemented a Random Forest Classifier to train the model
+
+Evaluated performance using the train–test split
+
+3️⃣ Model Serialization
+
+Used the pickle library to save the trained model
+
+Generated a model.pkl file for future predictions
+
+4️⃣ Web Application (Flask)
+
+Built a simple and interactive Flask application
+
+Integrated the model.pkl file into the app
+
+Users can input wine chemical properties to get predicted quality
+
+🚀 Tech Stack
+
+Python
+
+Scikit-learn
+
+Pandas / NumPy
+
+Flask
+
+Pickle
